@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pexeso</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-3 col-sm-6">
+      <div class="p1">
+          <p ondblclick="doubleClick()">Player 1</p>
+          <div id="name1">
+              <input id="in" type="text" style="display: none;">
+          </div>
+      </div>
+       <div class="tab1">
+        <table  border="1px" solid>
+         <tr>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td></td>
+         </tr>
+         </table>
+     </div>
+         </div>
+      <div class="col-md-6">
+       <div id="header">
+           <div id="logo" class="col-sm-12"><img src="logo_header_02.png" alt=""></div>
+       </div>
+        <br>
+        <div id="board">
+        <table id="game" class="col-sm-6">
+            <tr>
+                <td><img src="pic.png" alt="" class="card" id="img00" onclick="clickImg(00)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img01" onclick="clickImg(01)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img02" onclick="clickImg(02)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img03" onclick="clickImg(03)"></td>
+            </tr>
+            <tr>
+                <td><img src="pic.png" alt="" class="card" id="img10" onclick="clickImg(10)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img11" onclick="clickImg(11)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img12" onclick="clickImg(12)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img13" onclick="clickImg(13)"></td>
+            </tr>
+            <tr>
+                <td><img src="pic.png" alt="" class="card" id="img20" onclick="clickImg(20)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img21" onclick="clickImg(21)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img22" onclick="clickImg(22)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img23" onclick="clickImg(23)"></td>
+            </tr>
+            <tr>
+                <td><img src="pic.png" alt="" class="card" id="img30" onclick="clickImg(30)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img31" onclick="clickImg(31)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img32" onclick="clickImg(32)"></td>
+                <td><img src="pic.png" alt="" class="card" id="img33" onclick="clickImg(33)"></td>
+            </tr>
+        </table>
+          </div>
+        <div class="buto">
+        <button onclick="reload()" class="btn btn-secondary btn-lg">RESET</button>
+          </div>
+          <br>
+        </div>
+         <div class="col-md-3 col-sm-6">
+         <div class="p2">
+          <p ondblclick="doubleClick()">Player 2</p>
+          <div id="name2"></div>
+      </div>
+         <div class="tab2">
+         <table id="tabl" border="1px" solid>
+         <tr>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td></td>
+         </tr>
+         </table>
+         </div>
+        </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
